@@ -1,0 +1,1 @@
+p = game:GetService('Players').LocalPlayer if p.Character then if p.Character:FindFirstChild('Humanoid') then p.Character.Humanoid.MaxHealth = math.huge end end
